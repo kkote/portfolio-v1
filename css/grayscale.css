@@ -144,6 +144,17 @@
   border: 0;
 }
 
+.projectButtons {
+  border: 0;
+  background-color: #FFEFE2;
+  font-size: 80%;
+  color: #42454A;
+  border-radius: 4px;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .btn-primary {
   background-color: #64a19d;
 }
@@ -170,8 +181,11 @@
   margin-bottom: 5rem;
 }
 
-.projects-section {
+/* .projects-section {
   padding: 10rem 0;
+} */
+.projects-section {
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {
