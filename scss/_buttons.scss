@@ -1,23 +1,23 @@
 .btn {
   box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1) !important;
-  padding: 1.25rem 2rem;
+  // padding: 1.25rem 2rem;
   font-family: 'Varela Round';
   font-size: 80%;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   letter-spacing: .15rem;
   border: 0;
 }
 
 .btn-primary {
-  background-color: $primary;
+  background-color: #51905f;
   &:hover {
-    background-color: darken($primary, 10%);
+    background-color: darken(#51905f, 10%);
   }
   &:focus {
-    background-color: darken($primary, 10%);
+    background-color: darken(#51905f, 10%);
     color: white;
   }
   &:active {
-    background-color: darken($primary, 15%) !important;
+    background-color: darken(#51905f, 15%) !important;
   }
 }
