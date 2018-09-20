@@ -6,6 +6,80 @@
 
 
 
+
+ .sidebar {
+   z-index: 1;
+   margin: 0;
+   padding: 0;
+   /* width: 200px; */
+   width: 80px;
+   background-color: #f1f1f1;
+   position: fixed;
+   /* height: 100%; */
+   overflow: auto;
+ }
+
+ .sidebar a {
+   background-color: #80808057;
+   line-height: 1rem;
+    display: flex;
+    word-break: break-word;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+    padding: 15px 35px 20px 35px;
+    /* padding: 35px; */
+        margin-bottom: .25rem;
+    text-decoration: none;
+        font-weight: 600;
+
+   /* display: block;
+   color: black;
+   padding: 16px;
+   text-decoration: none; */
+ }
+
+ .sidebar a.active {
+   background-color: #64a19d9c;
+   color: white;
+ }
+
+ .sidebar a:hover:not(.active) {
+   background-color: #555;
+   color: white;
+ }
+
+
+
+ @media screen and (max-width: 700px) {
+   .sidebar {
+     width: 100%;
+     height: auto;
+     position: relative;
+   }
+   .sidebar a {float: left;}
+   div.content {margin-left: 0;}
+ }
+
+ @media screen and (max-width: 400px) {
+   .sidebar a {
+     text-align: center;
+     float: none;
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
  .myNav {
    font-weight: bold;
 
@@ -25,7 +99,7 @@ padding-top: 5rem
 }
 
 #projects{
-  background: #f3f3f3;
+  background: #6563641a!important;
   /* background: gainsboro; */
 }
 
@@ -194,9 +268,12 @@ border-radius: .25rem;
   height: auto;
   min-height: 35rem;
   /* padding: 15rem 0; */
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%),
+  /* background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%),
 
-   url("../img/sized/greensky.jpg");
+   url("../img/overhead.jpg"); */
+
+   background:
+    url("../img/sized/overhead.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -211,12 +288,14 @@ border-radius: .25rem;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .9));
+  background: black;
+  /* background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .9)); */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
+  color: black;
   max-width: 20rem;
   font-size: 1rem;
 }
@@ -230,7 +309,7 @@ border-radius: .25rem;
 
 @media (min-width: 992px) {
   .masthead {
-    /* height: 100vh; */
+    height: 100vh;
     padding: 0;
   }
 
@@ -265,7 +344,8 @@ border-radius: .25rem;
   /* margin-top: 3rem; */
 }
 .navGroup a {
-  color: #dee2e6a8;
+  color: black;
+  float: right;
 
 }
 
@@ -285,6 +365,11 @@ border-radius: .25rem;
 
 }
 
+.social{
+      /* margin-right: 3rem; */
+      margin-top: 3rem;
+      float: right;
+}
 
 .projectButtons {
   border: 0;
