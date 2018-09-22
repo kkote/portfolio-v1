@@ -10,18 +10,19 @@
 
     <title>Kate K</title>
 
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <!-- Added cdn -->
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> -->
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <!-- <link href="css/grayscale.min.css" rel="stylesheet"> -->
+
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
@@ -31,47 +32,56 @@
     <link href="css/marketing.css" rel="stylesheet">
   </head>
 
-  <body id="page-top">
 
+
+  <body id="page-top" >
 
     <div class="sidebar">
-      <a class="active" href="#page-top"><i class="fas fa-arrow-up"></i></a>
-      <a href="#projects">Projects</a>
-      <a href="#signup">About</a>
-      <a href="#contact-section">Contact</a>
+      <nav   id="main-nav"  >
+        <ul>
+
+          <!-- <li id="nav-top" class="active"><a href="#page-top"><span>Top</span></a></li> -->
+          <li id="nav-top" class=""><a href="#page-top"><span>Top</span></a></li>
+          <li id="nav-library" class><a  href="#libraryproject"><span>Library</span></a></li>
+          <li id="nav-body" class><a  href="#bfproject"><span>BodyStat</span></a></li>
+          <li id="nav-weather" class><a  href="#weatherproject"><span>Weather</span></a></li>
+
+          <li id="nav-about" class><a href="#signup"><span>About</span></a></li>
+
+          <li id="nav-contact" class><a href="#contact-section"><span>Contact</span></a></li>
+
+        </ul>
+      </nav>
     </div>
 
 
-
-    <!-- <nav class="myNav navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-          <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Kate K</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              Menu
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger active" href="#signup">About</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#contact-section">Contact</a>
-                </li>
-              </ul>
-            </div>
+<!--
+      <div class="sidebar">
+        <a class="active" href="#page-top"><i class="fas fa-arrow-up"></i></a>
+          <div class="flexContainer">
+              <div class="notHidden" > Left </div>
+              <div class="hiddenDivRight" > Right </div>
           </div>
-        </nav> -->
+          <div class="flexContainer">
+              <div class="notHidden" > Left </div>
+              <div class="hiddenDivRight" > Right </div>
+          </div>
+              <a id="contactLink" href="#contact-section"></a>
+              <div class="hiddenText ">
+                Contact
+              </div>
+
+      </div> -->
+
+
+
+
+
 
   <header id="top" class="masthead">
+
     <div id="headerContainer" class="container d-flex h-100 align-items-center">
+
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 ">Kate K</h1>
         <h2 class=" mx-auto mt-2 mb-5">St. Louis Based web developer specialized in Javascript, API's and UX.</h2>
@@ -99,7 +109,7 @@
 
       <div id="projectContainer" class="container">
 
-    <div class="leftPictureSide row align-items-center no-gutters mb-4 mb-lg-5">
+    <div id="libraryproject" class="leftPictureSide row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-xl-8 col-lg-7">
           <img class="leftPicture img-fluid mb-3 mb-lg-0" src="img/sized/library.jpg" alt="">
       </div>
@@ -117,7 +127,7 @@
       </div>
 
 
-  <div class="rightPictureSide row align-items-center no-gutters mb-4 mb-lg-5">
+  <div id="bfproject" class="rightPictureSide row align-items-center no-gutters mb-4 mb-lg-5">
 
     <div class="col-xl-8 col-lg-7">
       <img class="img-fluid mb-3 mb-lg-0" src="img/bfscreenc.png" alt="">
@@ -126,7 +136,7 @@
     <div class="col-xl-4 col-lg-5 order-lg-first">
       <div  class="featured-text text-center text-lg-right left-border">
         <h4>Body Stat Calculator</h4>
-        <p class="text-black-50 mb-0"> Web App that calculators BF percentage and tracks changes.</p>
+        <p class="text-black-50 mb-0"> Web App that calculates bodyfat percentage, body mass index and tracks changes.</p>
         <p class="text-black-50 mb-0">HTML - CSS - Javascript </p>
         <hr class="d-lg-block mb-0 mr-0">
         <a href="https://kategray52.github.io/bf-calculator/"><button class="projectButtons">Demo</button></a>
@@ -136,7 +146,7 @@
   </div>
 
 
-  <div class="bottomPictureSide row align-items-center no-gutters mb-4 mb-lg-5">
+  <div id="weatherproject" class="bottomPictureSide row align-items-center no-gutters mb-4 mb-lg-5">
     <div class="col-xl-8 col-lg-7">
       <img class="bottomPicture img-fluid mb-3 mb-lg-0" src="img/sized/weather.jpg" alt="">
     </div>
@@ -158,64 +168,21 @@
     </section>
 
 
-    <!-- <div id="contactSection" class="content" style="">
-                <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
-
-                <div id="contactRow" class="pure-g">
-                    <div id="contactForm" class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                        <form class="pure-form pure-form-stacked">
-                            <fieldset>
-
-                                <label for="name">Your Name</label>
-                                <input id="name" type="text" placeholder="Your Name">
-
-
-                                <label for="email">Your Email</label>
-                                <input id="email" type="email" placeholder="Your Email">
-
-
-
-                                <label for="email">Your Email</label>
-                                <input id="email" type="email" placeholder="Your Email">
-
-                                <label for="password">Your Password</label>
-                                <input id="password" type="password" placeholder="Your Password">
-
-                                <button type="submit" class="pure-button">Sign Up</button>
-                            </fieldset>
-                        </form>
-                    </div>
-
-                    <div id="aboutSection" class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                        <h4>Contact Us</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                        </p>
-
-                        <h4>More Information</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet,
-                        </p>
-                    </div>
-                </div>
-            </div> -->
-
-
             <section id="signup" class="signup-section">
                   <div class="container">
                     <div class="row">
-                      <div class="aboutBox col-md-10 col-lg-8 mx-auto text-center">
-
-
-                        <h2 class="text-white mb-5">Hi, my name is Katherine K.</h2>
-                        <p class="text-white mb-5">
+                      <div class="aboutBox mx-auto text-center">
+                        <h2 class=" mb-5">Hi, my name is Katherine K.</h2>
+                        <p class=" mb-5">
                           Frontend web developer that works with Javascript, RESTful APIs, and responsive design. Always looking to learn new tools and techniques.<br>
                           On the frontend I use: Javascript, jQuery, Html/Css, PureCss, and Bootstrap.<br>
                           On the Backend I have experiance with: Nodejs, MongoDb, Python, and Django.<br>
                           Tools:
                           Chrome Dev Tools, Webpack, Babel, Git, and Github.<br>
-
                         </p>
+
+                      </div>
+
 
                       </div>
                     </div>
@@ -225,49 +192,48 @@
 
     <section id="contact-section" class="contact-section bg-black">
       <div class="content">
-            <!-- <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2> -->
+            <h3 class="content-head is-center">Contact Me</h3>
 
-            <div class="pure-g">
-                <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+            <div class="contentBox pure-g">
+
+                <div class="  pure-u-2-3 pure-u-md-2-3">
+                  <h3>Send A Message</h3>
                     <form class="pure-form pure-form-stacked">
                         <fieldset class="pure-group">
 
-                            <label for="name">Your Name</label>
+                            <label for="name"> Name</label>
                             <input id="name" type="text" placeholder="">
-
-
-                            <label for="email">Your Email</label>
+                            <label for="email"> Email</label>
                             <input id="email" type="email" placeholder="">
-
                           </fieldset>
-
                           <label for="">Subject</label>
-                              <input type="text" class="pure-input-1-1" placeholder="A title">
-                              <!-- <label for="">Message</label> -->
+                              <input type="text" class="pure-input-1-1" placeholder="">
                               <textarea  placeholder="Message"></textarea>
-
-
-
-                            <button type="submit" class="pure-button">Sign Up</button>
+                            <button type="submit" class="pure-button">Send </button>
                         <!-- </fieldset> -->
                     </form>
                 </div>
 
 
-                <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                    <h4>Contact Us</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <!-- <div class="l-box-lrg pure-u-1-3 pure-u-md-1-3"> -->
+                <div class="pure-u-1-3 pure-u-md-1-3">
+                  <div class="aboutBox mx-auto text-center">
 
-                    </p>
+                    <h2 class=" mb-5"> Social</h2>
+                    <div class="social d-flex justify-content-center ">
+                    <a href="https://github.com/KateGray52" class="mx-2">
+                      <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+                    </a>
+                    <a href="www.linkedin.com" class="mx-2">
+                      <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                    </a>
+                    <a href="www.codepen.com" class="mx-2">
+                      <i class="fa fa-codepen fa-3x" aria-hidden="true"></i>
+                    </a>
+                  </div>
 
-                    <h4>More Information</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+                  </div>
                 </div>
-
 
             </div>
 
@@ -275,64 +241,19 @@
     </section>
 
 
-    <!-- <div class="content">
-            <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-            <div class="pure-g">
-                <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                    <form class="pure-form pure-form-stacked">
-                        <fieldset>
-
-                            <label for="name">Your Name</label>
-                            <input id="name" type="text" placeholder="Your Name">
-
-
-                            <label for="email">Your Email</label>
-                            <input id="email" type="email" placeholder="Your Email">
-
-                            <label for="password">Your Password</label>
-                            <input id="password" type="password" placeholder="Your Password">
-
-                            <button type="submit" class="pure-button">Sign Up</button>
-                        </fieldset>
-                    </form>
-                </div>
-
-                <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                    <h4>Contact Us</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
-                    </p>
-
-                    <h4>More Information</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                </div>
-            </div>
-
-        </div> -->
-
-
-    <!-- Footer -->
-    <footer class="bg-black small text-center text-white-50">
-      <div class="container">
-        <!-- Copyright &copy; Your Website 2018 -->
-      </div>
-    </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src=".vendor/jquery/jquery.min.js"></script>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
+    <!-- <script src="js/scroll.js"></script> -->
     <script src="js/grayscale.js"></script>
 
   </body>
