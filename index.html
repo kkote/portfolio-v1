@@ -41,7 +41,7 @@
         <ul>
 
           <!-- <li id="nav-top" class="active"><a href="#page-top"><span>Top</span></a></li> -->
-          <li id="nav-top" class=""><a href="#page-top"><span>Top</span></a></li>
+          <li id="nav-top" class="active"><a href="#page-top"><span>Top</span></a></li>
           <li id="nav-library" class><a  href="#libraryproject"><span>Library</span></a></li>
           <li id="nav-body" class><a  href="#bfproject"><span>BodyStat</span></a></li>
           <li id="nav-weather" class><a  href="#weatherproject"><span>Weather</span></a></li>
@@ -111,7 +111,7 @@
 
     <div id="libraryproject" class="leftPictureSide row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-xl-8 col-lg-7">
-          <img class="leftPicture img-fluid mb-3 mb-lg-0" src="img/sized/library.jpg" alt="">
+          <img class="leftPicture img-fluid mb-3 mb-lg-0" src="img/library.jpg" alt="">
       </div>
 
       <div class="col-xl-4 col-lg-5">
@@ -148,7 +148,7 @@
 
   <div id="weatherproject" class="bottomPictureSide row align-items-center no-gutters mb-4 mb-lg-5">
     <div class="col-xl-8 col-lg-7">
-      <img class="bottomPicture img-fluid mb-3 mb-lg-0" src="img/sized/weather.jpg" alt="">
+      <img class="bottomPicture img-fluid mb-3 mb-lg-0" src="img/weather.jpg" alt="">
     </div>
 
     <div class="col-xl-4 col-lg-5">      <div class="featuredLeft featured-text text-center text-lg-left">
@@ -198,17 +198,24 @@
 
                 <div class="  pure-u-2-3 pure-u-md-2-3">
                   <h3>Send A Message</h3>
-                    <form class="pure-form pure-form-stacked" action="https://formspree.io/kkote12@gmail.com" method="POST">
+
+
+
+                    <form  id="formaction" class="pure-form pure-form-stacked" method="POST">
+
+                    <!-- <form class="pure-form pure-form-stacked" action="https://formspree.io/kkote12@gmail.com" method="POST"> -->
                         <fieldset class="pure-group" name="fieldset">
 
-                            <!-- <label for="name"> Name</label> -->
+                            <label for="name"> Name</label>
                             <input id="name" type="text" placeholder="" name="name">
-                            <!-- <label for="email"> Email</label> -->
+                            <label for="email"> Email</label>
                             <input id="email" type="email" placeholder="" name="_replyto">
                           </fieldset>
-                          <!-- <label for="">Subject</label> -->
+                          <label for="">Subject</label>
                               <input type="text" class="pure-input-1-1" placeholder="" name="input">
                               <textarea name="textarea" placeholder="Message"></textarea>
+                              <input type="text" name="_gotcha" style="display:none" />
+                              <input type="hidden" name="_next" value="sent.html" />
                             <button name="button" type="submit" class="pure-button" value="Send">Send </button>
                         <!-- </fieldset> -->
                     </form>

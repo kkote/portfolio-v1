@@ -71,6 +71,30 @@
  	padding-right: 20px;
  }
 
+
+
+ @media screen and (max-width: 700px) {
+   .sidebar {
+     width: 100%;
+     height: auto;
+     position: relative;
+   }
+   .sidebar a {float: left;}
+   div.content {margin-left: 0;}
+ }
+
+ @media screen and (max-width: 400px) {
+   .sidebar a {
+     text-align: center;
+     float: none;
+   }
+ }
+
+
+
+
+
+
  #nav-top a {
  	background: #ccc;
  	/* color: #222; */
@@ -319,7 +343,7 @@ margin-left: -1rem; */
    url("../img/overhead.jpg"); */
 
    background:
-    url("../img/sized/overhead.jpg");
+    url("../img/overhead.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
