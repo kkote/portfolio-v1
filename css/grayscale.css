@@ -26,16 +26,21 @@
  }
 
  #main-nav a {
- 	background-color: #ccc;
+ 	background-color: #425d56;
  	line-height: 60px;
- 	display: inline-block;
+ 	display: flex;
  	/* height: 40px; */
   height: 60px;
  	position: relative;
  	border: none;
  	color: #fff;
- 	font-size: 0;
- 	padding-left: 40px;
+
+ 	/* font-size: 0; */
+  padding-right: 10px;
+ 	padding-left: 20px;
+  /* padding-left: 40px; */
+
+
  	overflow: hidden;
  	-webkit-transition: all 0.2s ease;
    	-moz-transition:    all 0.2s ease;
@@ -44,20 +49,18 @@
  }
 
  #main-nav a:hover {
- 	font-size: 18px;
- 	padding-right: 20px;
+ 	/* font-size: 18px;
+ 	padding-right: 20px; */
+
+  background: #a9d6ca;
  }
 
  #main-nav .active a {
- 	padding-right: 20px;
+ 	padding-right: 30px;
  }
 
- #nav-top a {
- 	background: #ccc;
- 	/* color: #222; */
- }
 
- #nav-library a {
+ /* #nav-library a {
  	background: #80C883;
  }
  #nav-body a {
@@ -65,14 +68,23 @@
  }
  #nav-weather a {
  	background: #70C1A9;
- }
+ } */
 
- #nav-about a {
- 	background: #EFF5ED;
+
+
+ #nav-library a {
+  background: #47776bde;
+ }
+ #nav-body a {
+  background: #47776bde;
+ }
+ #nav-weather a {
+  background: #47776bde;
  }
 
  #nav-contact a {
- 	background: #3C59670;
+ 	background: #489a85;
+  background: #5cc3a9;
  }
 
 
@@ -443,6 +455,8 @@ flex-direction: column;
 }
 
 body {
+
+
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
 }
