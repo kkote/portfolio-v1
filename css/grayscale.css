@@ -176,8 +176,10 @@ padding-bottom: 5rem;
 }
 
 .aboutBox {
+  color: #5d5f5e;
   width: 70%;
-  /* background: #00000091; */
+  /* font-size: 18px; */
+  font: icon;
 
 }
 #contactSection {
@@ -219,7 +221,7 @@ padding-bottom: 5rem;
   font-family: 'Europa';
   font-size: 2.5rem;
   line-height: 2.5rem;
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.2rem;
   background: black;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -260,11 +262,13 @@ padding-bottom: 5rem;
     /* font-size: 5.5rem; */
     font-size: 3.5rem;
     line-height: 5.5rem;
-    letter-spacing: 0.8rem;
+
+    letter-spacing: 0.5rem;
+
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -315,13 +319,28 @@ padding-bottom: 5rem;
 .projectButtons {
   border: 0;
   margin: .5rem;
-  background-color: #007bffe3;
-  font-size: 80%;
-  color: #e9eceff2;
+  background-color: #029873;
+  font-size: 100%;
+  color: #f8f9fa;
   border-radius: 4px;
   font-family: 'Varela Round';
   text-transform: uppercase;
+  border: 1px solid #029873;
 }
+
+.githubBtn {
+  background: #e9f3f0ba;
+  font-weight: bold;
+    color: #047357;
+    font-size: 90%;
+    border: 1.25px solid #054232c9;
+}
+
+.demoBtn {
+  letter-spacing: .1rem;
+    /* font-size: .75rem; */
+}
+
 
 
 .contact-section {
@@ -429,6 +448,12 @@ padding-bottom: 5rem;
   letter-spacing: 0.15rem;
   border: 0;
 }
+
+#signup span {
+  font-weight: bold;
+}
+
+
 
 .contact-section {
   background-color: #dee2e6;
