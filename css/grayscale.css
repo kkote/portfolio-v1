@@ -146,9 +146,7 @@
     }
 }
  */
-/* #bfImg {
-}
- */
+
  .leftPictureSide {
      padding-bottom: 5rem;
 }
@@ -335,6 +333,7 @@
      color: black;
 }
  .contact-section textarea {
+        width: -webkit-fill-available;
      color: black;
 }
  .btn-primary {
@@ -366,34 +365,21 @@
 }
  @media (min-width: 992px) {
      .projects-section .featured-text {
-        /* border-right: 0.5rem solid #64a19d;
-         */
-        /* border-right: 0.5rem solid ;
-         */
     }
-}
- @media (min-width: 992px) {
+
      .projects-section .text-lg-left {
         /* padding: 0 0 0 2rem;
          */
         /* border-right: 0.5rem solid #64a19d;
          */
          border-right: 0.5rem solid ;
-        /* border-right: 0.5rem solid ;
-         */
     }
-}
- @media (min-width: 992px) {
      .projects-section .text-lg-right {
-        /* padding: 0 0 0 2rem;
-         */
-        /* border-right: 0.5rem solid #64a19d;
-         */
          border-left: 0.5rem solid ;
-        /* border-right: 0.5rem solid ;
-         */
     }
+
 }
+
  .signup-section {
      padding: 4rem 0;
      background: whitesmoke;
