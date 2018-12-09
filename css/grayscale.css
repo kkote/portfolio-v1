@@ -90,6 +90,8 @@
     }
      #main-nav li {
          width: inherit;
+         border: .5px darkslategray solid;
+
     }
      #main-nav a {
          position: relative;
@@ -98,13 +100,19 @@
          padding-left: 0;
          padding: 15px;
     }
+
+
      #main-nav span {
          display: none;
+         line-height: 0;
     }
      #main-nav i {
          display: block;
     }
 }
+
+
+
  hr {
      display: block;
      box-sizing: content-box;
@@ -112,7 +120,7 @@
      border-top: 2px solid #00000096;
 }
  #headerContainer{
-     padding-top: 5rem 
+     padding-top: 5rem
 }
  #projects{
      background: #6563641a!important;
@@ -170,6 +178,17 @@
  #projectContainer{
      margin-top: -7rem;
 }
+
+.toolsText {
+font-weight: 800;
+color: #34495e !important;
+
+}
+
+#projects p {
+    color: #34495e !important;
+}
+
  .aboutBox {
      color: #5d5f5e;
      width: 70%;
@@ -453,4 +472,3 @@
  footer {
      padding: 5rem 0;
 }
- 
