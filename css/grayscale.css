@@ -520,6 +520,55 @@ color: #34495e !important;
  .contact-section .social a:active {
      color: #fff;
 }
+
+
+
+
+.contentBox {
+  border: solid black 1px;
+}
+
+.contactBox {
+  padding: 20px;
+}
+
+.formBox {
+  background: #ced4da;
+margin: 20px;
+padding: 20px;
+}
+
+.formBox form {
+  padding: 20px;
+}
+
+.formBox fieldset {
+  border: 0;
+  display: flex;
+}
+
+.formBox input{
+  margin: 10px;
+  padding: 10px;
+      border: black 1px solid;
+}
+.formBox textarea {
+  margin: 10px;
+  padding: 10px;
+      border: black 1px solid;
+}
+
+.formBox button {
+  background-color: #1f8dd6;
+color: white;
+padding: 0.5em 2em;
+border-radius: 5px;
+margin-top: 5px;
+}
+
+
+
+
  body {
      font-family: 'Nunito';
      letter-spacing: 0.0625em;

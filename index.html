@@ -17,8 +17,8 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"> -->
 
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/marketing.css" rel="stylesheet">
@@ -219,7 +219,7 @@
         <div class="container">
             <div class="row">
                 <div class="aboutBox mx-auto text-center">
-                    <h2 class=" mb-5">Hi, my name is Katherine Kote</h2>
+                    <!-- <h2 class=" mb-5">Hi, my name is Katherine Kote</h2>
                     <p class=" mb-5">
                         Front-end web developer that works with Javascript, RESTful APIs, and responsive design. Always experimenting with new tools, languages, techniques, and frameworks.
                     </p>
@@ -231,7 +231,7 @@
                         <br>
                         <span>Tools:</span> Chrome Dev Tools, Webpack, Babel, Git, and Github.
                         <br>
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>
@@ -240,25 +240,53 @@
 
 
     <section id="contact-section" class="contact-section bg-black">
-        <div class="content">
+<div class="rows">
+  <div class="lefttColumn col-md-6">
+
+    <div class="aboutBox mx-auto text-center">
+        <h2 class=" mb-5">Hi, my name is Katherine Kote</h2>
+        <p class=" mb-5">
+            Front-end web developer that works with Javascript, RESTful APIs, and responsive design. Always experimenting with new tools, languages, techniques, and frameworks.
+        </p>
+    </div>
+
+
+
+  </div>
+  <div class="rightColumn col-md-6">
+    <div class="contactBox">
+      <h3>Send a Message</h3>
+      <div class="formBox">
+
+
+      <form id="formaction" class="" method="POST">
+          <fieldset class="" name="fieldset">
+              <!-- <label for="name"> Name</label> -->
+              <input id="name" type="text" placeholder="Name" name="name">
+              <!-- <label for="email"> Email</label> -->
+              <input id="email" type="email" placeholder="Email" name="_replyto">
+
+          <!-- <label for="">Subject</label> -->
+          <input type="text" class="" placeholder="Subject" name="input">
+          <textarea name="textarea" placeholder="Message"></textarea>
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_next" value="sent.html" />
+          <button name="button" type="submit" class="" value="Send">Send </button>
+          </fieldset>
+      </form>
+      </div>
+    </div>
+
+  </div>
+
+
+
+        <!-- <div class="content">
             <h3 class="content-head is-center">Contact Me</h3>
             <div class="contentBox pure-g">
                 <div class="  pure-u-2-3 pure-u-md-2-3">
                     <h3>Send a Message</h3>
-                    <form id="formaction" class="pure-form pure-form-stacked" method="POST">
-                        <fieldset class="pure-group" name="fieldset">
-                            <label for="name"> Name</label>
-                            <input id="name" type="text" placeholder="" name="name">
-                            <label for="email"> Email</label>
-                            <input id="email" type="email" placeholder="" name="_replyto">
-                        </fieldset>
-                        <label for="">Subject</label>
-                        <input type="text" class="pure-input-1-1" placeholder="" name="input">
-                        <textarea name="textarea" placeholder="Message"></textarea>
-                        <input type="text" name="_gotcha" style="display:none" />
-                        <input type="hidden" name="_next" value="sent.html" />
-                        <button name="button" type="submit" class="pure-button" value="Send">Send </button>
-                    </form>
+
                 </div>
 
                 <div class="pure-u-1-3 pure-u-md-1-3">
@@ -279,6 +307,9 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+
+
         </div>
     </section>
 
