@@ -197,16 +197,17 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
  .rightPictureSide {
-     margin-top: -4rem;
+     /* margin-top: -4rem; */
     /* margin-right: -1rem;
      */
+     padding-bottom: 3rem;
 }
  .bfimage {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
  .bottomPictureSide{
-     margin-top: -4rem;
-     padding-top: 5rem;
+     /* margin-top: -4rem;
+     padding-top: 5rem; */
      padding-bottom: 3rem;
 }
  #projectContainer{
