@@ -122,8 +122,41 @@
  #headerContainer{
      padding-top: 5rem
 }
+
+
+.rows {
+  display: flex;
+  width: 100%;
+}
+
+
+.col-md-6 {
+  border: solid 1px black;
+}
+
+
+#topImage {
+  background: url("../img/cup2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
  #projects{
-     background: #6563641a!important;
+     background: white !important;
     /* background: gainsboro;
      */
 }
@@ -159,8 +192,9 @@
      padding-bottom: 5rem;
 }
  .leftPicture{
-     margin-top: -2rem;
-     border: solid 2px;
+     /* margin-top: -2rem;
+     border: solid 2px; */
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
  .rightPictureSide {
      margin-top: -4rem;
@@ -168,7 +202,7 @@
      */
 }
  .bfimage {
-     border: solid 2px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
  .bottomPictureSide{
      margin-top: -4rem;
@@ -217,7 +251,7 @@ color: #34495e !important;
      min-height: 35rem;
     /* padding: 15rem 0;
      */
-     background: url("../img/cup2.jpg");
+     /* background: url("../img/cup2.jpg"); */
      background-position: center;
      background-repeat: no-repeat;
      background-attachment: scroll;
@@ -288,7 +322,7 @@ color: #34495e !important;
 }
  .navGroup a {
      color: #2e7b68;
-     float: right;
+     /* float: right; */
 }
  .navButtons {
      margin: 1.5rem;
@@ -387,14 +421,17 @@ color: #34495e !important;
     }
 
      .projects-section .text-lg-left {
-        /* padding: 0 0 0 2rem;
-         */
+        padding: 0 0 0 2rem;
+        margin-left: 2rem;
         /* border-right: 0.5rem solid #64a19d;
          */
-         border-right: 0.5rem solid ;
+         /* border-right: 0.5rem solid ; */
     }
      .projects-section .text-lg-right {
-         border-left: 0.5rem solid ;
+         /* border-left: 0.5rem solid ; */
+         margin-right: 2rem;
+         padding: 0 2rem 0 0;
+         text-align: left !important;
     }
 
 }
