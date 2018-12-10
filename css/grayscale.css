@@ -136,13 +136,43 @@
 
 
 #topImage {
-  background: url("../img/cup2.jpg");
+  background: url("../img/example1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: contain;
+  background-size: cover;
 
 
+}
+
+
+.skillBox {
+ text-align: center;
+ background-color: whitesmoke;
+ /* border-left: 1px solid black;
+ border-right: 1px solid black; */
+ /* padding: 10px; */
+ /* color: white; */
+ width: -webkit-fill-available;
+ padding: 5rem 0;
+}
+
+
+.skillBox ul{
+ list-style-type: none !important;
+ color: darkslategrey;
+ font-family: 'Nunito';
+ padding: 0;
+
+}
+
+.skillBox hr{
+ width: 40%;
+
+}
+
+.skillBoxRow {
+display: flex;
 }
 
 
@@ -211,7 +241,7 @@
      padding-bottom: 3rem;
 }
  #projectContainer{
-     margin-top: -7rem;
+     /* margin-top: -7rem; */
 }
 
 .toolsText {
