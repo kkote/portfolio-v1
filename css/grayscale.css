@@ -4,6 +4,10 @@
   }
 }
 
+#mainNav div.container {
+  justify-content: start;
+}
+
 .navbar-inverse .navbar-nav li a:hover {
   background-color: #444444;
   transition: 0.7s all linear;
@@ -40,14 +44,9 @@ ul.navbar-nav li {
     font-weight: bold;
   }
 
-  .skillBoxRow {
-    display: inline-flex;
-    /* flex-wrap: nowrap; */
-  }
-
   .skillBox {
     width: 50% !important;
-    padding: 0 !important;
+    padding: 1rem 0 !important;
   }
 
   .skillBox h5 {
@@ -55,7 +54,17 @@ ul.navbar-nav li {
     margin: 0;
   }
 
-  .skillBox
+  .skillBoxRow {
+    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap !important;
+    line-height: 1.3em;
+  }
+
+  .skillBoxRow hr {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
 }
 
 hr {
@@ -78,7 +87,6 @@ hr {
 #topImage {
   /* background: url("../img/coffee.jpg"); */
   background-position: center;
-
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -87,18 +95,71 @@ hr {
 img#topImage.col-md-8 {
   width: 100%;
   border-radius: 1rem;
-  transform: rotate(180deg);
-filter: grayscale(10%);
-float: right;
+  transform: rotate(90deg);
+  filter: grayscale(10%);
+  margin: auto;
+  display: flex;
 }
-
 
 @media screen and (min-width: 300px) and (max-width: 700px) {
   #topImage {
     display: none;
   }
+
+  img#topImage.col-md-8 {
+    display: none;
   }
 
+  #headerContainer .rightColumn {
+    display: none;
+  }
+
+  .projects-section .featured-text {
+    padding: 1rem !important;
+  }
+
+  .leftPictureSide {
+    padding-bottom: 0 !important;
+  }
+
+  .projects-section {
+    padding: 3rem 0 !important;
+  }
+
+  /* .container {
+    width: 100%;
+    padding-right: 0;
+
+  } */
+  .formBox {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .formBox form {
+    padding: 0px !important;
+  }
+
+  .formBox fieldset {
+    border: 0;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .aboutBox {
+    width: 90%
+  }
+
+  .aboutBox p {
+    line-height: 1.5rem;
+    text-align: left !important;
+  }
+
+  .contact-section h3 {
+    text-transform: none;
+    margin: .5em 0 .5em;
+  }
+}
 
 .skillBox {
   text-align: center;
@@ -127,10 +188,6 @@ float: right;
   background: white !important;
 }
 
-/* @media screen and (min-width: 300px) and (max-width: 700px) {
-    }
-}
- */
 .leftPictureSide {
   padding-bottom: 5rem;
 }
@@ -364,8 +421,6 @@ float: right;
     text-align: left !important;
   }
 }
-
-
 
 .contact-section {
   background: linear-gradient(180deg, #dee2e6 50%, whitesmoke 50%);
