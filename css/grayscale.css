@@ -1,3 +1,30 @@
+
+body {
+  /* font-family: 'Roboto'; */
+  /* font-family: sans-serif; */
+
+}
+
+h1 h2 h3 h4 h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+body  {
+  font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.0625em;
+
+
+}
+
+
+p {
+  line-height: 30px;
+  font-size: 16px;
+}
+
+
+
+
 @media screen and (min-width: 992px) {
   .navbar-nav {
     flex-direction: row reverse;
@@ -101,6 +128,10 @@ img#topImage.col-md-8 {
   display: flex;
 }
 
+
+
+
+
 @media screen and (min-width: 300px) and (max-width: 768px) {
   #topImage {
     display: none;
@@ -147,7 +178,7 @@ img#topImage.col-md-8 {
   }
 
   .aboutBox {
-    width: 90%
+    width: 90% !important;
   }
 
   .aboutBox p {
@@ -157,9 +188,13 @@ img#topImage.col-md-8 {
 
   .contact-section h3 {
     text-transform: none;
-    margin: .5em 0 .5em;
+    margin: .5em 0 .5em !important;
   }
 }
+
+
+
+
 
 .skillBox {
   text-align: center;
@@ -221,7 +256,7 @@ img#topImage.col-md-8 {
 
 .aboutBox {
   color: #5d5f5e;
-  width: 70%;
+  width: 90%;
   font: icon;
 }
 
@@ -356,7 +391,8 @@ img#topImage.col-md-8 {
 }
 
 .contact-section h4 {
-  color: whitesmoke;
+  /* color: whitesmoke; */
+      margin-bottom: 2rem;
 }
 
 .contact-section label {
@@ -516,10 +552,7 @@ img#topImage.col-md-8 {
   margin-top: 5px;
 }
 
-body {
-  font-family: 'Nunito';
-  letter-spacing: 0.0625em;
-}
+
 
 a {
   color: #64a19d;
