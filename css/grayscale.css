@@ -8,6 +8,12 @@
 .col-lg-	960px
 col-xl- 1140px */
 
+/* nav breaks to molibe at about 575
+header breaks at tablet 768 */
+
+/* projects break to side by side at Tablets 768 */
+/* contact breaks at tablet */
+
 
 @media screen and (min-width: 992px) {
   .navbar-nav {
@@ -513,7 +519,9 @@ color: #34495e !important;
      font-weight: bold;
 }
  .contact-section {
-     background-color: #dee2e6;
+   background: linear-gradient(180deg, #dee2e6 50%, whitesmoke 50%);
+
+     /* background-color: #dee2e6; */
      padding: 3rem 0 0;
 }
  .contact-section h3{
@@ -524,7 +532,7 @@ color: #34495e !important;
      float: none;
      margin: 1rem;
      padding: 2rem;
-     flex-direction: column;
+     /* flex-direction: column; */
     /* margin-top: 5rem;
      */
 }
@@ -546,7 +554,11 @@ color: #34495e !important;
 }
 
 
-
+.lefttColumn {
+  justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
 
 /* .main {
     display: inline-block;
@@ -554,7 +566,11 @@ color: #34495e !important;
 
 
 
-
+.aboutIcons {
+  display: flex;
+justify-content: space-evenly;
+margin: auto;
+}
 
 
 .contentBox {
@@ -563,16 +579,14 @@ color: #34495e !important;
 
 .contactBox {
   padding: 20px;
-  background: #d6d6d6;
+  background: #f8f9fa;
   margin: auto;
-  border-radius: 2rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-/* border: solid gray .5px; */
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
+  border: solid #6c757d66 .5px;
 }
 
 .formBox {
-  /* background: #ced4da; */
-  background: #d6d6d6;
 margin: 20px;
 padding: 20px;
 }
@@ -589,16 +603,16 @@ padding: 20px;
 .formBox input{
   margin: 10px;
   padding: 10px;
-      border: black 1px solid;
+  border: #53715a 1px solid
 }
 .formBox textarea {
   margin: 10px;
   padding: 10px;
-      border: black 1px solid;
+      border: #53715a 1px solid;
 }
 
 .formBox button {
-  background-color: #1f8dd6;
+  background-color: #64a19c;
 color: white;
 padding: 0.5em 2em;
 border-radius: 5px;
