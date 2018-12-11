@@ -76,12 +76,29 @@ hr {
 }
 
 #topImage {
-  background: url("../img/example1.jpg");
+  /* background: url("../img/coffee.jpg"); */
   background-position: center;
+
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+
+img#topImage.col-md-8 {
+  width: 100%;
+  border-radius: 1rem;
+  transform: rotate(180deg);
+filter: grayscale(10%);
+float: right;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  #topImage {
+    display: none;
+  }
+  }
+
 
 .skillBox {
   text-align: center;
