@@ -1,29 +1,21 @@
-
 body {
-  /* font-family: 'Roboto'; */
-  /* font-family: sans-serif; */
-
+  color: #323031 !important;
+  background: #FBFFFE;
 }
 
 h1 h2 h3 h4 h5 {
   font-family: 'Roboto', sans-serif;
 }
 
-body  {
+body {
   font-family: 'Nunito', sans-serif;
-    letter-spacing: 0.0625em;
-
-
+  letter-spacing: 0.0625em;
 }
-
 
 p {
   line-height: 30px;
   font-size: 16px;
 }
-
-
-
 
 @media screen and (min-width: 992px) {
   .navbar-nav {
@@ -112,7 +104,6 @@ hr {
 }
 
 #topImage {
-  /* background: url("../img/coffee.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -127,10 +118,6 @@ img#topImage.col-md-8 {
   margin: auto;
   display: flex;
 }
-
-
-
-
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
   #topImage {
@@ -192,10 +179,6 @@ img#topImage.col-md-8 {
   }
 }
 
-
-
-
-
 .skillBox {
   text-align: center;
   background-color: whitesmoke;
@@ -247,15 +230,11 @@ img#topImage.col-md-8 {
 
 .toolsText {
   font-weight: 800;
-  color: #34495e !important;
 }
 
-#projects p {
-  color: #34495e !important;
-}
+#projects p {}
 
 .aboutBox {
-  color: #5d5f5e;
   width: 90%;
   font: icon;
 }
@@ -350,7 +329,7 @@ img#topImage.col-md-8 {
 }
 
 .navGroup a {
-  color: #2e7b68;
+  color: #3AB795;
 }
 
 .social {
@@ -360,29 +339,25 @@ img#topImage.col-md-8 {
 .projectButtons {
   border: 0;
   margin: .5rem;
-  background-color: #029873;
+  background-color: #3AB795;
   font-size: 100%;
-  color: #f8f9fa;
+  color: #FBFFFE;
   border-radius: 4px;
   font-family: 'Varela Round';
   text-transform: uppercase;
-  border: 1px solid #029873;
+  border: 1px solid #3AB795;
 }
 
 .githubBtn {
   background: #e9f3f0ba;
   font-weight: bold;
-  color: #047357;
+  color: #3AB795;
   font-size: 90%;
-  border: 1.25px solid #054232c9;
+  border: 1.25px solid #3AB795;
 }
 
 .demoBtn {
   letter-spacing: .1rem;
-}
-
-.contact-section {
-  color: gray;
 }
 
 .contentBox {
@@ -391,8 +366,7 @@ img#topImage.col-md-8 {
 }
 
 .contact-section h4 {
-  /* color: whitesmoke; */
-      margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .contact-section label {
@@ -459,7 +433,7 @@ img#topImage.col-md-8 {
 }
 
 .contact-section {
-  background: linear-gradient(180deg, #dee2e6 50%, whitesmoke 50%);
+  background: linear-gradient(180deg, #BAD1CD 50%, #FBFFFE 50%);
   padding: 3rem 0 0;
 }
 
@@ -511,7 +485,7 @@ img#topImage.col-md-8 {
 
 .contactBox {
   padding: 20px;
-  background: #f8f9fa;
+  background: whitesmoke;
   margin: auto;
   border-radius: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
@@ -545,22 +519,20 @@ img#topImage.col-md-8 {
 }
 
 .formBox button {
-  background-color: #64a19c;
+  background-color: #3AB795;
   color: white;
   padding: 0.5em 2em;
   border-radius: 5px;
   margin-top: 5px;
 }
 
-
-
 a {
-  color: #64a19d;
+  color: #3AB795;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #a7d6c9;
 }
 
 .bg-primary {
