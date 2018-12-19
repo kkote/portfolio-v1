@@ -23,6 +23,10 @@ p {
   }
 }
 
+
+.bg-light {
+  background-color: #FBFFFE !important;
+}
 #mainNav div.container {
   justify-content: start;
 }
@@ -203,7 +207,7 @@ img#topImage.col-md-8 {
 }
 
 #projects {
-  background: white !important;
+  /* background: white !important; */
 }
 
 .leftPictureSide {
@@ -413,7 +417,7 @@ img#topImage.col-md-8 {
 }
 
 .projects-section .featured-text {
-  padding: 4rem;
+  padding: 0 0 0 2rem;
   background: white;
 }
 
@@ -485,7 +489,7 @@ img#topImage.col-md-8 {
 
 .contactBox {
   padding: 20px;
-  background: whitesmoke;
+  background: #FBFFFE;
   margin: auto;
   border-radius: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
