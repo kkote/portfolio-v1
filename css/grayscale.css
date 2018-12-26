@@ -274,7 +274,7 @@ img#topImage.col-md-8 {
   font-weight: 800;
 }
 
-.masthead {
+/* .masthead {
   width: 100%;
   height: auto;
   min-height: 35rem;
@@ -282,6 +282,10 @@ img#topImage.col-md-8 {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+} */
+header{
+  width: 100%;
+  height: auto;
 }
 
 .masthead h1 {
@@ -426,7 +430,9 @@ img#topImage.col-md-8 {
 
 
 .lefttColumn {
-  justify-content: space-around;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  /* justify-content: space-around; */
   display: flex;
   flex-direction: column;
 }
