@@ -1,17 +1,20 @@
 body {
   color: #323031 !important;
-  background: #FBFFFE;
-}
-
-h1 h2 h3 h4 h5 {
+  /* font-family: 'Work Sans', sans-serif;  */
   font-family: 'Roboto', sans-serif;
-}
-
-body {
-  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  background: #FBFFFE;
   letter-spacing: 0.0625em;
 }
 
+h1 h2 h3 h4 h5 {
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  color: inherit;
+}
 p {
   line-height: 30px;
   font-size: 16px;
@@ -98,6 +101,40 @@ padding: 1rem;
 
 
 
+
+footer {
+  padding: 5rem 0;
+  background-color: #101318;
+  color: white;
+}
+
+.skillDiv {
+  line-height: 1;
+}
+
+.skillDiv ul {
+  /* display: flex; */
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.skillDiv li {
+  list-style-type: none;
+  color: blue;
+}
+
+
+
+
+li {
+  list-style-type: none;
+}
+.social-icon {
+  display: flex;
+}
+
+
+
 @media screen and (min-width: 992px) {
   .navbar-nav {
     flex-direction: row reverse;
@@ -139,13 +176,13 @@ ul.navbar-nav li {
 
 .navbar-nav a {
   font-size: 20px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .navbar-nav a {
     font-size: 14px !important;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
   .skillBox {
@@ -274,7 +311,7 @@ img#topImage.col-md-8 {
 .skillBox ul {
   list-style-type: none !important;
   color: darkslategrey;
-  font-family: 'Nunito';
+  /* font-family: 'Nunito'; */
   padding: 0;
 }
 
@@ -321,7 +358,7 @@ img#topImage.col-md-8 {
 
 .aboutBox {
   width: 90%;
-  font: icon;
+  /* font: icon; */
 }
 
 #contactSection {
@@ -352,7 +389,7 @@ img#topImage.col-md-8 {
 }
 
 .masthead h1 {
-  font-family: 'Europa';
+  /* font-family: 'Europa'; */
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.2rem;
@@ -400,8 +437,8 @@ img#topImage.col-md-8 {
 }
 
 .btn {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  font-family: 'Varela Round';
+  /* box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  font-family: 'Varela Round'; */
   font-size: 80%;
   letter-spacing: .15rem;
   border: 0;
@@ -440,7 +477,7 @@ img#topImage.col-md-8 {
   font-size: 100%;
   color: #FBFFFE;
   border-radius: 4px;
-  font-family: 'Varela Round';
+  /* font-family: 'Varela Round'; */
   text-transform: uppercase;
   border: 1px solid #3AB795;
 }
@@ -638,8 +675,4 @@ a:focus, a:hover {
 
 .text-primary {
   color: #64a19d !important;
-}
-
-footer {
-  padding: 5rem 0;
 }
