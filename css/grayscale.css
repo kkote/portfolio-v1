@@ -103,9 +103,9 @@ padding: 1rem;
 
 
 footer {
-  padding: 5rem 0;
-  background-color: #101318;
-  color: white;
+  padding: 3rem 0;
+  /* background-color: #101318;
+  color: white; */
 }
 
 .skillDiv {
@@ -131,7 +131,18 @@ li {
 }
 .social-icon {
   display: flex;
+  justify-content: center;
 }
+
+footer .container .row div {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
 
 
 
