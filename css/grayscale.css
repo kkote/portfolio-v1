@@ -106,10 +106,6 @@ footer .container .row div {
   font-size: 2rem;
 }
 
-.item-a {}
-
-.item-b {}
-
 .item-b div {
   display: flex;
   flex-direction: column;
@@ -319,10 +315,6 @@ header {
   border: 0;
 }
 
-.social {
-  margin-top: 3rem;
-}
-
 .projectButtons {
   border: 0;
   margin: .5rem;
@@ -332,6 +324,7 @@ header {
   border-radius: 4px;
   text-transform: uppercase;
   border: 1px solid #3AB795;
+  letter-spacing: .1rem;
 }
 
 .githubBtn {
@@ -342,9 +335,9 @@ header {
   border: 1.25px solid #3AB795;
 }
 
-.demoBtn {
+/* .demoBtn {
   letter-spacing: .1rem;
-}
+} */
 
 .projects-section {
   padding: 5rem 0;
