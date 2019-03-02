@@ -203,8 +203,8 @@ ul.navbar-nav li {
 		padding: 3rem 0 !important;
 	}
 	.formBox {
-		margin: 0px !important;
-		padding: 0px !important;
+		/* margin: 0px !important;
+		padding: 0px !important; */
 	}
 	.formBox form {
 		padding: 0px !important;
@@ -215,13 +215,17 @@ ul.navbar-nav li {
 		flex-direction: column !important;
 	}
 	.aboutBox {
-		width: 90% !important;
+		/* width: 90% !important; */
 	}
 	.aboutBox p {
 		line-height: 1.5rem;
 		text-align: left !important;
 	}
+
+
 }
+
+
 .toolsText {
 	font-weight: 800;
 }
