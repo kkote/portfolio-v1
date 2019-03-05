@@ -1,5 +1,5 @@
 # Portfolio Page
-> Project demos, Github links, about, skills, and contact information.
+> Project demos, GitHub links, about, skills, and contact information.
 
 
 
