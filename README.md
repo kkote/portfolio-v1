@@ -11,7 +11,7 @@
 
 ## Author
 
-* **Katherine Kote** - *Initial work* - [KateGray52](https://github.com/KateGray52)
+* **Kay D. Kote** - *Initial work* - [KateGray52](https://github.com/kkote)
 
 ## License
 
