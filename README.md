@@ -7,11 +7,13 @@
 ## Built With
 
 * [Start Bootstrap](https://startbootstrap.com/template-overviews/grayscale/) - Base Layout
+* CSS3- Custom Design
+
 
 
 ## Author
 
-* **Kay D. Kote** - *Initial work* - [KateGray52](https://github.com/kkote)
+* **Kay D. Kote** - *Initial work* - [Kkote](https://github.com/kkote)
 
 ## License
 

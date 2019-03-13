@@ -1,7 +1,5 @@
-
-
-var contactform =  document.getElementById('formaction');
-   contactform.setAttribute('action', '//formspree.io/' + 'kkote12' + '@' + 'gmail' + '.' + 'com');
+var contactform = document.getElementById('formaction');
+contactform.setAttribute('action', '//formspree.io/' + 'kkote12' + '@' + 'gmail' + '.' + 'com');
 
 
 
