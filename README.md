@@ -13,7 +13,7 @@
 
 ## Author
 
-* **Kay D. Kote** - *Initial work* - [Kkote](https://github.com/kkote)
+* **Katie Kote** - *Initial work* - [Kkote](https://github.com/kkote)
 
 ## License
 
