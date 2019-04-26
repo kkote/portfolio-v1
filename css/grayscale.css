@@ -135,6 +135,18 @@ footer .container .row div {
   width: fit-content;
 }
 
+
+#imgdiv {
+  width: 100%;
+  /* height: auto; */
+  height: 100%;
+  min-height: 200px;
+  background: url(../img/pic1.png) center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
 .formBox {
   padding: 20px;
   align-items: center;
