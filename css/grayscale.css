@@ -110,6 +110,7 @@ footer .container .row div {
 
 .aboutDiv {
   font-size: 2rem;
+  display: inline;
 }
 
 .item-b div {
