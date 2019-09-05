@@ -7,7 +7,7 @@ body {
 
 .colorTheme{
   background-color:#05386B;
-   color: #379683;
+  color: #379683;
   color: #5CDB95;
   color: #8EE4AF;
   color: #EDF5E1;
@@ -85,6 +85,7 @@ li {
 }
 
 .social-icon {
+  padding: 1rem;
   /* display: flex; */
   justify-content: center;
   font-size: initial;
@@ -92,6 +93,12 @@ li {
 
 .imgDivInAbout .social-icon {
   border-bottom: #9E9E9E .5px solid;
+}
+.aboutDiv .social-icon {
+  font-size: 18px;
+}
+.iconSpan {
+padding: 1rem;
 }
 
 
@@ -247,11 +254,17 @@ header {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.2rem;
-  background: black;
-  -webkit-text-fill-color: transparent;
+  /* background: black; */
+  color: #011b37;
+  /* -webkit-text-fill-color: transparent; */
   -webkit-background-clip: text;
 }
 
+.mastSpan {
+  /* -webkit-text-fill-color: #3d9683; */
+  color:#379683;
+
+}
 @media (min-width: 768px) {
   .masthead h1 {
     padding-top: 5rem;
@@ -274,7 +287,7 @@ header {
   .masthead h1 {
     font-size: 3.5rem;
     line-height: 5.5rem;
-    letter-spacing: 0.5rem;
+    /* letter-spacing: 0.5rem; */
   }
 }
 
