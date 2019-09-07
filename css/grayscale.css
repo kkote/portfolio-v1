@@ -73,12 +73,91 @@ img {
   padding-bottom: 2%;
 }
 
+
 footer {
   padding: 3rem 0;
   background: #010e1c;
   color: snow;
-  min-height: 10rem;
+  min-height: 15rem;
+
+  display: flex;
+  align-items: center;
 }
+
+
+/* .socials {
+  width: 40px;
+  position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 20px;
+  border-radius: 20px;
+  mix-blend-mode: difference;
+  z-index: 20;
+} */
+
+.socials {
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 20px;
+  border-radius: 20px;
+  z-index: 20;
+}
+.social-btn {
+  width: 40px;
+  height: 40px;
+  float: left;
+
+  font-size: 20px;
+}
+/* .li {
+  background: url("../img/ico-li-light.svg") center center no-repeat;
+} */
+
+
+.footer-block p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.footer-block {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.footer-block .logo {
+  top: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  right: 100px;
+  left: auto;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+
+
+.logo {
+  color: #fff;
+  font-family: 'Silka-Bold', sans-serif;
+  line-height: 0px;
+  font-size: 23px;
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  mix-blend-mode: difference;
+  z-index: 20;
+
+}
+
+
+
 
 li {
   list-style-type: none;
