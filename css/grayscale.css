@@ -74,6 +74,9 @@ img {
 }
 
 
+/* FOOTER */
+
+
 footer {
   padding: 3rem 0;
   background: #010e1c;
@@ -83,18 +86,6 @@ footer {
   display: flex;
   align-items: center;
 }
-
-
-/* .socials {
-  width: 40px;
-  position: fixed;
-  top: 50%;
-  transform: translate(0, -50%);
-  left: 20px;
-  border-radius: 20px;
-  mix-blend-mode: difference;
-  z-index: 20;
-} */
 
 .socials {
   top: 50%;
@@ -107,8 +98,8 @@ footer {
   width: 40px;
   height: 40px;
   float: left;
-
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 25px;
 }
 /* .li {
   background: url("../img/ico-li-light.svg") center center no-repeat;
@@ -151,10 +142,65 @@ footer {
   position: fixed;
   left: 30px;
   top: 30px;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
   z-index: 20;
 
 }
+
+@media screen and (max-width: 760px) {
+  .footer-block{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;  
+  }
+
+  .footer-block p {
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 0;
+    margin: 0;
+    color: #fff;
+    width: 100%;
+  }
+
+  .footer .btn {
+    margin-bottom: 90px;
+}
+
+.footer h2 {
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 25px;
+}
+.footer .logo {
+  top: 36%;
+  transform: translate(-50%, -50%);
+  right: auto;
+  left: 50%;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+
+.footer-block::before {
+  padding-top: 30%;
+}
+
+ .socials {
+  opacity: 1;
+  visibility: visible;
+  bottom: 40px;
+}
+}
+
+@media screen and (max-width: 440px) {
+  
+  .footer-block::before {
+    padding-top: 40%;
+  }
+
+}
+
 
 
 
@@ -235,6 +281,11 @@ text-align: center;
   height: fit-content;
 }
 
+.header-block{
+color: black;
+}
+
+
 .contactBox {
   padding: 20px;
   background: #e9e9e9;
@@ -310,7 +361,7 @@ ul.navbar-nav li {
   }
 
   .projects-section {
-    padding: 3rem 0 !important;
+    /* padding: 3rem 0 !important; */
   }
 
 
@@ -329,9 +380,13 @@ header {
   height: auto;
 }
 
+
+
 .masthead h1 {
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  /* font-size: 2.5rem; */
+  font-size: 7vh; 
+  /* line-height: 2.5rem; */
+  line-height: 9vh;
   letter-spacing: 0.2rem;
   /* background: black; */
   color: #011b37;
@@ -342,18 +397,24 @@ header {
 .mastSpan {
   /* -webkit-text-fill-color: #3d9683; */
   color:#379683;
+  font-weight: bold;
 
 }
+.extrasmall{
+  font-size: 30%;
+  color: #666;
+}
+
 @media (min-width: 768px) {
   .masthead h1 {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     line-height: 4rem;
   }
 }
 
 @media (min-width: 300px) {
   .masthead h1 {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
   }
 }
 
