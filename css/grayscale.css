@@ -28,7 +28,135 @@ p {
   font-size: 16px;
 }
 
-//Start new CSS
+
+/* New Navbar */
+
+
+
+header {
+  color: black;
+  /* background: #111; */
+  background: inherit;
+  height: 62px;
+  padding: 0 5%;
+  width: 90%;
+  position: sticky;
+  z-index: 1000;
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+.logo {
+  height: 62px;
+  width: 40px;
+  /* background: url(images/sprite-mobile.png) 0px -63px no-repeat; */
+  display: block;
+  /* text-indent: -9999px; */
+  float: left;
+}
+
+
+header nav li {
+  height: 3em;
+  list-style: none;
+  display: block;
+  /* border-top: #212121 solid 1px;
+  border-bottom: #363636 solid 1px; */
+}
+
+header nav li a {
+  display: block;
+  /* color: #FFF; */
+  /* color:black; */
+  line-height: 4em;
+  text-decoration: none;
+  /* text-transform: lowercase; */
+}
+
+
+
+@media screen and (max-width: 830px) {
+#header .row {
+width: 100%;
+}
+
+header nav li a {
+  display: block;
+  /* color: #FFF; */
+  line-height: 4em;
+  text-decoration: none;
+  padding: .5rem .5rem;
+}
+
+#nav {
+  display: flex;
+  float: right;
+}
+}
+
+@media screen and (min-width: 830px) {
+/* @only screen and (min-width:830px){ */
+
+  header {
+    /* background: #111; */
+    /* height: 92px; */
+    justify-content: flex-end
+  }
+
+  .logo {
+    /* height: 92px; */
+    width: 62px;
+    /* background: url(images/sprite.png) 0px -93px no-repeat; */
+}
+
+header nav {
+  display: none;
+  /* background: #222; */
+  position: absolute;
+  top: 62px;
+  right: 0px;
+  z-index: 1000;
+  width: 100%;
+  font-size: 24px;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+
+
+header nav {
+  float: right;
+  display: block;
+  /* font-size: 18px; */
+  font-size: 14px;
+  /* font-size: 1.8rem; */
+  position: static;
+  background: transparent;
+  width: auto;
+}
+
+header nav li {
+  display: inline-block;
+  float: left;
+  position: relative;
+  height: 92px;
+  border: 0px;
+}
+
+header nav li a {
+  display: block;
+  /* color: white; */
+  /* line-height: 92px; */
+  padding: 0 1em;
+  text-decoration: none;
+}
+
+}
+
+
+
+
+/* 
+//Start new CSS */
 .navbar {
   background-color: inherit;
 }
@@ -40,6 +168,14 @@ p {
 header {
   display: flex;
 }
+
+
+
+.masthead {
+  height: auto;
+}
+
+
 
 .projectRow {
   justify-content: space-evenly;
@@ -139,7 +275,7 @@ width: 100%;
 
 
 .logo {
-  color: #fff;
+  /* color: #fff; */
   font-family: 'Silka-Bold', sans-serif;
   line-height: 0px;
   font-size: 23px;
@@ -382,12 +518,16 @@ ul.navbar-nav li {
 
 header {
   width: 100%;
-  height: auto;
+  /* height: auto; */
+}
+
+.masthead{
+  height: 100vh;
 }
 
 
-
 .masthead h1 {
+  /* margin-top: 10vh; */
   /* font-size: 2.5rem; */
   font-size: 7vh; 
   /* line-height: 2.5rem; */
@@ -421,6 +561,11 @@ header {
   .masthead h1 {
     /* padding-top: 5rem; */
   }
+  .extrasmall {
+    font-size: 29%;
+    color: #666;
+    letter-spacing: 1.9px;
+}
 }
 
 @media (min-width: 992px) {
@@ -648,7 +793,7 @@ padding-bottom: 30px;
       margin: 0 auto;
       padding-left: 40px;
       padding-right: 40px;
-      margin-top: 100px;
+      /* margin-top: 100px; */
     }
     
     /* .wrap .block-left {
