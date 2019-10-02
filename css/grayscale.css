@@ -149,8 +149,11 @@ footer {
 	display: flex;
 	align-items: center;
 	bottom: 0;
-	position: relative;
+	/* position: relative; */
 	width: 100%;
+	 position: absolute;
+	box-sizing: border-box; 
+	
 }
 .socials {
 	top: 50%;
