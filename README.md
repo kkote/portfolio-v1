@@ -6,14 +6,14 @@
 
 ## Built With
 
+* CSS3 
 * [Start Bootstrap](https://startbootstrap.com/template-overviews/grayscale/) - Base Layout
-* CSS3- Custom Design
 
 
 
 ## Author
 
-* **Katie Kote** - *Initial work* - [Kkote](https://github.com/kkote)
+* [Kkote](https://github.com/kkote)
 
 ## License
 
